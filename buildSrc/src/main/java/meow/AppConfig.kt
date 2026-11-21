@@ -58,13 +58,13 @@ object AppConfig {
         const val PATCH = 1
         val BUILD_PHASE = Build.PHASE.STABLE
 
-        const val SDK_COMPILE = 29
+        const val SDK_COMPILE = 34
         const val SDK_MIN = 17
-        const val SDK_TARGET = 29
+        const val SDK_TARGET = 34
 
         const val APPCOMPAT = "1.1.0"
         const val KTX = "1.1.0"
-        const val KOTLIN = "1.3.72"
+        const val KOTLIN = "1.9.22"
     }
 
     object Dependencies {

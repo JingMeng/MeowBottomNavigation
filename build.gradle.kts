@@ -3,11 +3,11 @@ buildscript {
 
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 
     dependencies {
-        classpath("com.android.tools.build:gradle:4.0.0")
+        classpath("com.android.tools.build:gradle:8.2.1")
         classpath(kotlin("gradle-plugin", kotlinVersion))
     }
 }
@@ -20,7 +20,7 @@ allprojects {
     }
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 }
 
